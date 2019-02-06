@@ -1,0 +1,39 @@
+.tabs .indicator {
+    background-color: white;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}
+
+input {
+    color:white;
+}
+
+.searchsection {
+    padding-left: 100px;
+    padding-right: 100px;
+} 
+
+.mainimagediv {
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+
+.autocomplete-content { 
+    position: absolute; 
+    top: -3px;
+    left: -5px;
+}
+
+@media only screen and (max-width:800px) {
+    .searchsection {
+        padding-left: 20px;
+        padding-right: 25px;
+    } 
+}
